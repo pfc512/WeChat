@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T04:44:57.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="SzR48RmdaoVQ8T-iIxmd" version="14.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-14T12:55:01.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="jLwe6WNlgGRpVELvFwn5" version="14.3.1" type="github" pages="2">
   <diagram id="jOdRxc3y8hLvE2IeVhYp" name="第 1 页">
-    <mxGraphModel dx="1065" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,36 +49,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-12" value="&lt;div&gt;// 饮料抽象类（被装饰者类）&lt;/div&gt;&lt;div&gt;public abstract class Beverage {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;String description = &quot;Unknown Beverage&quot;; // 饮料名称&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public abstract double cost(); // 返回饮料价格&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="450" width="310" height="90" as="geometry" />
+          <mxGeometry x="60" y="540" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZspF1tVyXHxtzPNl68Pt-13" target="ZspF1tVyXHxtzPNl68Pt-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-13" value="// 配料抽象类&lt;br&gt;abstract class Condiment extends Beverage {&lt;div&gt;&lt;span&gt;public abstract String getDescription(); // 返回配料名称&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="710" y="550" width="295" height="70" as="geometry" />
+          <mxGeometry x="710" y="640" width="295" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-16" value="&lt;div&gt;// 具体的饮料1&lt;/div&gt;&lt;div&gt;public class Espresso extends Beverage {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public Espresso() {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;description = &quot;Espresso--浓缩咖啡&quot;;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public double cost() {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;return 1.99;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry y="660" width="230" height="170" as="geometry" />
+          <mxGeometry y="750" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="ZspF1tVyXHxtzPNl68Pt-22" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="600" as="sourcePoint" />
+            <mxPoint x="200" y="690" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="385" y="600" />
+              <mxPoint x="385" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-22" value="&lt;div&gt;// 具体的饮料2&lt;/div&gt;&lt;div&gt;class HouseBlend extends Beverage {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public HouseBlend() {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;description = &quot;HouseBlend--黑咖啡&quot;;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public double cost() {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;return .98;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="270" y="660" width="230" height="170" as="geometry" />
+          <mxGeometry x="270" y="750" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-23" value="&lt;div&gt;// 配料实例（摩卡）&lt;/div&gt;&lt;div&gt;public class Mocha extends Condiment {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Beverage beverage; // 被装饰者&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public Mocha(Beverage beverage) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;this.beverage = beverage;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public String getDescription() {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;return beverage.getDescription() + &quot;+ Mocha（摩卡）&quot;;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;@Override&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;public double cost() {&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;return .20 + beverage.cost(); // 被装饰者价格+配料价格&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="710" y="680" width="296.25" height="280" as="geometry" />
+          <mxGeometry x="710" y="770" width="296.25" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-25" value="// 一杯加摩卡的黑咖啡&lt;br&gt;Beverage mochaHouseBlend = new Mocha(new HouseBlend());&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="900" width="380" height="60" as="geometry" />
+          <mxGeometry x="290" y="990" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZspF1tVyXHxtzPNl68Pt-26" value="&lt;span style=&quot;background-color: rgb(230 , 208 , 222)&quot;&gt;装饰者模式&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="550" width="80" height="20" as="geometry" />
+          <mxGeometry x="450" y="640" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SmU_SJM2l_Ir7GUlWSc-1" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;宋体&amp;#34; , monospace ; font-size: 14.3pt&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;public class &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;SimplePizzaFactory &lt;/span&gt;{&lt;br&gt;   &lt;span style=&quot;color: #0033b3&quot;&gt;public static &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;Pizza &lt;/span&gt;&lt;span style=&quot;color: #00627a&quot;&gt;createPizza&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;String &lt;/span&gt;type) {&lt;br&gt;      &lt;span style=&quot;color: #000000&quot;&gt;Pizza &lt;/span&gt;pizza = &lt;span style=&quot;color: #1750eb&quot;&gt;null&lt;/span&gt;;&lt;br&gt;&lt;br&gt;      &lt;span style=&quot;color: #0033b3&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: #067d17&quot;&gt;&quot;sweetPizza&quot;&lt;/span&gt;.equals(type)) {&lt;br&gt;         pizza = &lt;span style=&quot;color: #0033b3&quot;&gt;new &lt;/span&gt;SweetPizza();&lt;br&gt;         &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;pizza;&lt;br&gt;      }&lt;br&gt;&lt;br&gt;      &lt;span style=&quot;color: #0033b3&quot;&gt;return &lt;/span&gt;pizza;&lt;br&gt;   }&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;class &lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt;SimplePizzaFactoryTest &lt;/span&gt;{&lt;br&gt;   &lt;span style=&quot;color: #0033b3&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color: #00627a&quot;&gt;main&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;String&lt;/span&gt;[] args) {&lt;br&gt;      &lt;u&gt;&lt;span style=&quot;color: #000000&quot;&gt;Pizza sweetPizza &lt;/span&gt;= &lt;span style=&quot;color: #000000&quot;&gt;SimplePizzaFactory&lt;/span&gt;.&lt;span style=&quot;font-style: italic&quot;&gt;createPizza&lt;/span&gt;(&lt;span style=&quot;color: #067d17&quot;&gt;&quot;sweetPizza&quot;&lt;/span&gt;);&lt;/u&gt;&lt;br&gt;      &lt;span style=&quot;color: #000000&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;color: #871094 ; font-style: italic&quot;&gt;out&lt;/span&gt;.println(&lt;span style=&quot;color: #000000&quot;&gt;sweetPizza&lt;/span&gt;);&lt;br&gt;   }&lt;br&gt;}&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1240" width="680" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_SmU_SJM2l_Ir7GUlWSc-2" value="&lt;span style=&quot;background-color: rgb(230 , 208 , 222)&quot;&gt;简单工厂&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_SmU_SJM2l_Ir7GUlWSc-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
